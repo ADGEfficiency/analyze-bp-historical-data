@@ -3,7 +3,7 @@ import streamlit as st
 from sqlalchemy import create_engine
 import matplotlib.pyplot as plt
 
-connection = create_engine(f"sqlite:///./data/db.sqlite", echo=True)
+connection = create_engine(f"sqlite:///data/db.sqlite", echo=True)
 
 
 def download_raw_data():
